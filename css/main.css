@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header_section {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    background-image:url(../images/Main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    width: 100%;
+    height: 9vh;
+    gap: 75vh;
+    background-color: rgb(10, 10, 10);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header img {
+    height: 8vh;
+}
+
+.burger-menu {
+    display: none;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+header nav ul {
+    display: flex;
+    gap: 5vh;
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: "Montserrat", serif;
+    font-weight: normal;
+}
+
+header nav ul li p {
+    font-family: "Montserrat", serif;
+    font-weight: normal;
+}
+
+.button {
+    border: 1px solid;
+    padding: 10px 20px;
+    border-color: white;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.header_section_center_text {
+    width: 100%;
+    height: 85%;
+    gap: 1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header_section_center_text h1 {
+    color: white;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 2.7rem;
+}
+
+.header_section_center_text p {
+    color: white;
+    font-family: Helvetica;
+    font-weight: lighter;
+    font-size: 1.3rem;
+}
+
+
+@media (max-width: 1216px) {
+    header {
+        gap: 50vh;
+    }
+}
+
+@media (max-width: 1175px) {
+    header {
+        gap: 30vh;
+    }
+}
+
+@media (max-width: 940px) {
+    header {
+        gap: 10vh;
+    }
+}
+
+@media (max-width: 815px) {
+    header {
+        gap: 80vh;
+    }
+    header nav {
+        display: none;
+        flex-direction: column;
+        background: rgb(10, 10, 10);
+        position: absolute;
+        top: 9vh;
+        left: 0;
+        width: 100%;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        text-align: center;
+    }
+    header nav ul {
+        flex-direction: column;
+    }
+    .burger-menu {
+        display: block;
+    }
+}
+
+.nav-menu.active {
+    display: flex;
+}
+
+@media (max-width: 670px) {
+    header {
+        gap: 65vh;
+    }
+}
+@media (max-width: 545px) {
+    header {
+        gap: 45vh;
+    }
+}
+@media (max-width: 425px) {
+    header {
+        gap: 35vh;
+    }
+    .header_section_center_text h1 {
+        font-size: 2rem;
+    }
+    .header_section_center_text p {
+        font-size: 1rem;
+    }
+}
