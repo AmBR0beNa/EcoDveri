@@ -1,0 +1,33 @@
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+}
+.contacts h1 {
+    font-family: "Montserrat", serif;
+    font-size: 2.4rem;
+    font-weight: 400;
+}
+.contacts .location {
+    font-family: "Montserrat", serif;
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding: 50px;
+    border: 2px rgb(58, 194, 58) solid;
+}
+.number_phone {
+    font-family: "Montserrat", serif;
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding: 50px;
+    border: 2px rgb(58, 194, 58) solid;
+}
