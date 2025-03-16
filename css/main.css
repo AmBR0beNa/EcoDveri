@@ -160,3 +160,14 @@ header nav ul li p {
         font-size: 1rem;
     }
 }
+@media (max-width: 370px) {
+    header {
+        gap: 28vh;
+    }
+    .header_section_center_text h1 {
+        font-size: 2rem;
+    }
+    .header_section_center_text p {
+        font-size: 1rem;
+    }
+}
