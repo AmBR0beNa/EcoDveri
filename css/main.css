@@ -141,17 +141,17 @@ header nav ul li p {
 
 @media (max-width: 670px) {
     header {
-        gap: 55vh;
+        gap: 50vh;
     }
 }
 @media (max-width: 545px) {
     header {
-        gap: 35vh;
+        gap: 30vh;
     }
 }
 @media (max-width: 425px) {
     header {
-        gap: 30vh;
+        gap: 25vh;
     }
     .header_section_center_text h1 {
         font-size: 2rem;
