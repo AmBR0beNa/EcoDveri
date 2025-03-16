@@ -85,7 +85,7 @@
         width: 40vw;
     }
     .main_section_2 img {
-        height: 40vh;
+        height: 30vh;
     }
     .main_section_2__div_left_main__div_top p {
         font-size: 0.8rem;
@@ -97,7 +97,7 @@
 
 @media (max-width: 370px) {
     .main_section_2 img {
-        height: 30vh;
+        height: 20vh;
     }
     .main_section_2__div_left_main__div_top p {
         font-size: 0.65rem;
