@@ -151,7 +151,7 @@ header nav ul li p {
 }
 @media (max-width: 425px) {
     header {
-        gap: 35vh;
+        gap: 30vh;
     }
     .header_section_center_text h1 {
         font-size: 2rem;
