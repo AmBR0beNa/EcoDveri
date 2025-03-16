@@ -141,7 +141,7 @@ header nav ul li p {
 
 @media (max-width: 670px) {
     header {
-        gap: 50vh;
+        gap: 40vh;
     }
 }
 @media (max-width: 545px) {
