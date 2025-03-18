@@ -35,9 +35,6 @@
     font-size: 1rem;
     color: white;
 }
-.main_section_1__div_left_main__div_top p_2 {
-    width: 100px;
-}
 
 .main_section_1__div_left_main__div_top h1 {
     font-family: Helvetica;
@@ -48,6 +45,8 @@
 
 .main_section_1__div_left_main__div_top .p_2 {
     margin-top: 2vh;
+    width: 100px;
+    margin-left: 100px;
 } 
 
 .main_section_1__div_left_main__div_bottom {
@@ -80,6 +79,9 @@
         align-items: center;
         justify-content: center;
         height: 75vh;
+    }
+    .main_section_1__div_left_main__div_top .p_2 {
+        margin-left: 0px;
     }
 }
 
