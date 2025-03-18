@@ -233,7 +233,7 @@ header nav ul li p {
 }
 @media (max-width: 415px) {
     header {
-        gap: 150px;
+        gap: 200px;
     }
     .header_section_center_text h1 {
         font-size: 2rem;
