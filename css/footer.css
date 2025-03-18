@@ -61,3 +61,9 @@
     color: #aaa;
     font-family: "Montserrat", serif;
 }
+
+@media (max-width: 395px) {
+    .footer {
+        justify-content: left;
+    }
+}
