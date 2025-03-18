@@ -36,7 +36,7 @@
     color: white;
 }
 .main_section_1__div_left_main__div_top p_2 {
-    width: 300px;
+    width: 100px;
 }
 
 .main_section_1__div_left_main__div_top h1 {
@@ -116,4 +116,7 @@
     .main_section_1__div_left_main__div_top h1 {
         font-size: 1.35rem;
     }
+    .main_section_1__div_left_main__div_top p_2 {
+    width: 300px;
+}
 }
