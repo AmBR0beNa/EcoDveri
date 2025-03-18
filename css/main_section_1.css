@@ -35,6 +35,9 @@
     font-size: 1rem;
     color: white;
 }
+.main_section_1__div_left_main__div_top p_2 {
+    width: 300px;
+}
 
 .main_section_1__div_left_main__div_top h1 {
     font-family: Helvetica;
